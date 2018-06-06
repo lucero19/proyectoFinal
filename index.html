@@ -1,0 +1,764 @@
+<!doctype html>
+<html>
+<head>
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine3/style.css" />
+<script type="text/javascript" src="engine3/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<meta charset="utf-8">
+<title>Tutorial Daw </title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/temaapp2.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js" type="text/javascript"></script><!--necesario*/-->
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/sustitucion2.png','imagenes/EJEMPLOSHTML1.png','imagenes/funcionamientodeinternet.jpg','imagenes/config.png','imagenes/js.png','imagenes/css1.png','imagenes/sustituir4.png','imagenes/ejemplosTransform.png','imagenes/mediaquery1.png','imagenes/htm5.png')">
+<div data-role="page" id="Principal" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+  <h1>PROYECTO FINAL-TUTORIAL DE DAW </h1>
+ </div>
+ 
+<div>
+<ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+	<h2> ¿Qué es HTML?</h2>
+	 <p>Pulsa para más información...</p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+	<h2>¿Qué es CSS?</h2>
+  <p>Uso del Dreamweaver...</p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+	<a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+		<h2> Continuación de CSS...</h2>
+    <p>Pulsa para más información...</p>
+	</a>
+</li>
+<li class="ui-first-child ui-last-child">
+	<a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+		<h2>¿Qué son las Fuentes?</h2>
+     <p>Pulsa para más información...</p>
+	</a>
+</li>
+<li class="ui-first-child ui-last-child">
+	<a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+		<h2>¿Qué son los prefijos en CSS3?</h2>
+     <p>Pulsa para más información...</p>
+	</a>
+</li>
+
+  <li class="ui-first-child ui-last-child">
+<a href="#Pagina6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+	<h2>¿Qué es  la propiedad Transform?</h2>
+   <p>Pulsa para más información...</p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina7" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>¿Qué es la propiedad @keyframes?</h2>
+ <p>Pulsa para más información...</p>
+</a>
+</li>
+ 
+   
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina8" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>¿Qué es el diseño responsivo?</h2>
+ <p>Pulsa para más información...</p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina9" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>¿Qué son las media queries?</h2>
+ <p>Pulsa para más información...</p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+	<a href="#Pagina10" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+		<h2>DATOS DEL DESARROLLADOR:</h2>
+     <p>Pulsa para más información...</p>
+	</a>
+</li>
+</ul>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+  <h4>Proyecto Final-Tutorial DAW</h4>
+  <img src="res/android/mpdi.png" width="50" height="50">
+  <h5>christian Lucero Sánchez</h5>
+  </div>
+</div>
+
+
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1>HTML</h1>
+	</div>
+	<div data-role="main" class="ui-content">
+  <div data-role="collapsible" data-content-theme="false">
+<h1> Estructura del HTML</h1>
+<div>
+  <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image71','','imagenes/htm5.png',1)"><img src="imagenes/eshtml.png" width="569" height="388" id="Image71"></a> </div>
+ </div>
+</div>
+
+<div data-role="main" class="ui-content" align="center">
+  <div data-role="collapsible" data-content-theme="false">
+
+<h1> ¿Qué es HTML?</h1>
+<h2>Hyper </h2>
+<h2> Text</h2>
+<h2>Markup </h2>
+<h2> Language</h2>
+   <p>HTML es el lenguaje original de la Web. La última versión completada (4.01) se formalizó a fines de 1999.</p>
+   <h3>Esta conformado por:</h3>
+   <h4>‘tags’ (etiquetas):</h4>
+   <p>El navegador interpreta estas etiquetas al momento de cargar la página.</p>
+   <h4>Forma de las etiquetas HTML:</h4>
+   <p> Símbolos </p>
+   <h5> Estructura básica:</h5>
+   <p>NombreDeEtiqueta</p>
+   <h4>Nombre de las etiquetas</h4>
+   <p>Cada una tiene su propio significado.</p>
+<p>El nombre puede ser escrito en mayúsculas o en minúsculas.</p>
+    <h4>Pares de etiquetas:</h4>
+    <p> La mayoría de las etiquetas vienen en pares,  es decir:</p>
+    <div align="center">
+    <ul>
+<li>Etiqueta Apertura = Inicio</li>
+<li>Etiqueta Cierre = Final (contienen una diagonal /)</li>
+</ul>
+</div>
+<h4>Etiquetas Individuales:</h4>
+<p> Tenemos algunas otras etiquetas que no vienen en pares, es decir, solo tiene etiqueta de apertura por ejemplo:</p>
+ <div align="center">
+    <ul>
+<li>img</li>
+<li>input</li>
+<li>br</li>
+</ul>
+</div>
+<h4>Elementos HTML: </h4>
+<p> Todos los elementos HTML</p>
+ <div align="center">
+    <ul>
+<li>Elementos en bloque</li>
+<li>Elementos en línea</li>
+</ul>
+</div>
+ <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image63','','imagenes/EJEMPLOSHTML1.png',1)"><img src="imagenes/EJEMPLOSHTML.png" width="300" height="250" id="Image63"></a>
+<p>Los elementos pueden anidarse, es decir, podemos tener elementos HTML dentro de otro(s) elementos.</p>
+<h4>Espacios en HTML:</h4>
+<p>Los saltos de línea se ignoran.
+Varios espacios en blanco consecutivos  se convierten en uno solo
+</p>
+<h4>Atributos estándar en HTML:</h4>
+<div align="center">
+    <ul>
+<li>tstyle. Especifica las propiedades CSS de un elementoe</li>
+<li>id. Especifica un identificador único para un elemento</li>
+</ul>
+</div>
+<h4>Estructura Básica de un documento HTML:</h4>
+<h4>El elemento head:</h4>
+<p>Contiene información sobre  el documento HTML, incluyendo palabras clave, enlaces a otros documentos que usa  como archivos CSS y JavaScript</p>
+<p>A excepción del elemento title que se muestra en la barra de título del navegador, ningún elemento dentro de head  se muestra en el contenido de la página  HTML</p>
+<h4>Elementos de head:</h4>
+<div align="center">
+    <ul>
+<li>Title</li>
+<li>Meta</li>
+<li>Link</li>
+<li>Script</li>
+<li>Style</li>
+</ul>
+</div>
+<h3>Modelo de espacio en los elementos de HTML</h3>
+<img src="imagenes/modeloHTML.png" width="300" height="250">
+<h3>Así quedaría todo lo anterior en una página web:</h3>
+ <div data-role="main" class="ui-content" align="center">
+  <div style="width:90%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+<li class="ui-first-child ui-last-child">
+  <a href="https://codigofacilito.com/articulos/que-es-html" target="_self"  data-role="button">Más inf...</a>
+      </li>
+       </ul> 
+       </div>
+       </div>
+       <h3>Html:</h3>
+    <div align="center"><!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/comofuncionainteret.png" alt="comofuncionainteret" title="comofuncionainteret" id="wows1_0"/></li>
+		<li><img src="data1/images/elementoshtml.png" alt="elementosHTML" title="elementosHTML" id="wows1_1"/></li>
+		<li><img src="data1/images/estructurabasicadehtml.png" alt="estructuraBasicaDeHTML" title="estructuraBasicaDeHTML" id="wows1_2"/></li>
+		<li><img src="data1/images/funcionamientodeinternet.jpg" alt="funcionamientodeinternet" title="funcionamientodeinternet" id="wows1_3"/></li>
+		<li><img src="data1/images/ejemploshtml.png" alt="EJEMPLOSHTML" title="EJEMPLOSHTML" id="wows1_4"/></li>
+		<li><img src="data1/images/ejemploshtml1.png" alt="EJEMPLOSHTML1" title="EJEMPLOSHTML1" id="wows1_5"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/hitoriahtml.png" alt="wowslider.com" title="hitoriaHTML" id="wows1_6"/></a></li>
+		<li><img src="data1/images/modelohtml.png" alt="modeloHTML" title="modeloHTML" id="wows1_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="comofuncionainteret"><span><img src="data1/tooltips/comofuncionainteret.png" alt="comofuncionainteret"/>1</span></a>
+		<a href="#" title="elementosHTML"><span><img src="data1/tooltips/elementoshtml.png" alt="elementosHTML"/>2</span></a>
+		<a href="#" title="estructuraBasicaDeHTML"><span><img src="data1/tooltips/estructurabasicadehtml.png" alt="estructuraBasicaDeHTML"/>3</span></a>
+		<a href="#" title="funcionamientodeinternet"><span><img src="data1/tooltips/funcionamientodeinternet.jpg" alt="funcionamientodeinternet"/>4</span></a>
+		<a href="#" title="EJEMPLOSHTML"><span><img src="data1/tooltips/ejemploshtml.png" alt="EJEMPLOSHTML"/>5</span></a>
+		<a href="#" title="EJEMPLOSHTML1"><span><img src="data1/tooltips/ejemploshtml1.png" alt="EJEMPLOSHTML1"/>6</span></a>
+		<a href="#" title="hitoriaHTML"><span><img src="data1/tooltips/hitoriahtml.png" alt="hitoriaHTML"/>7</span></a>
+		<a href="#" title="modeloHTML"><span><img src="data1/tooltips/modelohtml.png" alt="modeloHTML"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">wowslider.com</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+</div>   
+</div>
+</div>
+<div align="center">
+  <img src="imagenes/Evolucion.jpg" width="350" height="350">
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+  <h4>Tutorial DAW</h4>
+  <img src="res/android/mpdi.png" width="50" height="50">
+  <h5>christian Lucero Sánchez</h5>
+  </div>
+</div>
+
+
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+		<h1>¿Qué es Dreamweaver? y ¿Qué es CSS?</h1>
+	</div>
+	<div data-role="content" align="center">
+    <div data-role="main" class="ui-content">
+  <div data-role="collapsible" data-content-theme="false">
+			<h2>Dreamweaver:</h2>
+            <p>Es una aplicación en programa de estudio (basada en la forma de estudio de Adobe Flash) que está destinada a la construcción, diseño y edición de sitios, vídeos y aplicaciones Web basados en estándares. Creado inicialmente por Macromedia (actualmente producido por Adobe Systems) es uno de los programas más utilizados en el sector del diseño y la programación web por sus funcionalidades, su integración con otras herramientas como Adobe Flash y, recientemente, por su soporte de los estándares del World Wide Web Consortium. </p>
+             <img src="imagenes/dreamweaver.jpg" width="225" height="225"> 
+        <h3>Con Dreamweaver se pueden crear archivos como:</h3>
+            <div align="center">
+    <ul>
+<li>HTML</li>
+<li>CSS</li>
+<li>Javascript</li>
+<li>XML</li>
+</ul>
+</div>
+            <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image62','','imagenes/config.png',1)"><img src="imagenes/html1.png" width="300" height="250" id="Image62"></a>
+            <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image26','','imagenes/js.png',1)"><img src="imagenes/css.png" width="300" height="250" id="Image26"></a>
+            </div>
+            </div>
+            <div data-role="main" class="ui-content">
+  <div data-role="collapsible" data-content-theme="false">
+			<h2> ¿Qué es CSS?</h2>
+            <div align="center">
+    <ul>
+<li> Cascading Style Sheets (CSS) ‘Hoja de estilo en cascada’ es un lenguaje usado para definir y crear la presentación de un documento estructurado escrito en HTML.</li>
+<li>CSS separa la estructura de un documento de su presentación.</li>
+<li>La información de estilo puede ser definida en un documento separado o en el mismo documento HTML.</li>
+</ul>
+</div>
+        <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image64','','imagenes/css1.png',1)"><img src="imagenes/csssustitucion2.png" width="299" height="169" id="Image2"></a>
+         <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image63','','imagenes/sustitucion2.png',1)"><img src="imagenes/csssustitucion.jpg" width="286" height="176" id="Image"></a>
+<h3>Evolución de CSS:</h3>
+            <p>El organismo W3C (World Wide Web Consortium),  encargado de crear todos los estándares  relacionados con la web, propuso la creación de  un lenguaje de hojas de estilos específico para el lenguaje HTML</p>
+            <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image28','','imagenes/css2.png',1)"><img src="imagenes/css3.png" width="300" height="250" id="Image28"></a> 
+            <h3>Agregando hojas de estilo:</h3>
+            <img src="imagenes/insertarCSS.png" width="250" height="250"> 
+            <h3>CSS3 Múltiples estilos un documento</h3>
+            <img src="imagenes/css4.png" width="250" height="250">
+            <h3>Sintaxis de CSS</h3>
+            <p>CSS tiene una sintaxis sencilla, que usa palabras clave (inglés) para especificar los nombres de las propiedades y la mayoría de los valores. Cada línea terminan con ;.</p>
+        <h3>Declaraciones</h3>
+            <img src="imagenes/declaraciones.png" width="250" height="250">
+        <h3>Estructura básica</h3>
+            <img src="imagenes/estructuraBasica.png" width="250" height="250"> 
+            <h3>Ejecutando CSS</h3>
+            <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image64','','imagenes/sustituir4.png',1)"><img src="imagenes/sustituir3.png" width="300" height="250" id="Image3"></a> 
+            </div>
+            </div>
+           
+      <div align="center">
+      <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container3">
+<div class="ws_images"><ul>
+    <li><img src="data3/images/1.jpg" alt="3" title="3" id="wows3_0"/></li>
+    <li><img src="data3/images/2.png" alt="2" title="2" id="wows3_1"/></li>
+    <li><img src="data3/images/3.png" alt="3" title="3" id="wows3_2"/></li>
+    <li><a href="http://wowslider.com"><img src="data3/images/css1.png" alt="wowslideshow" title="css1" id="wows3_3"/></a></li>
+    <li><img src="data3/images/google.png" alt="google" title="google" id="wows3_4"/></li>
+  </ul></div>
+  <div class="ws_bullets"><div>
+    <a href="#" title="3"><span><img src="data3/tooltips/1.jpg" alt="3"/>1</span></a>
+    <a href="#" title="2"><span><img src="data3/tooltips/2.png" alt="2"/>2</span></a>
+    <a href="#" title="3"><span><img src="data3/tooltips/3.png" alt="3"/>3</span></a>
+    <a href="#" title="css1"><span><img src="data3/tooltips/css1.png" alt="css1"/>4</span></a>
+    <a href="#" title="google"><span><img src="data3/tooltips/google.png" alt="google"/>5</span></a>
+  </div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com/vi">css slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>  
+<script type="text/javascript" src="engine3/wowslider.js"></script>
+<script type="text/javascript" src="engine3/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+
+
+
+
+</div>
+            
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+  <h4>Tutorial DAW</h4>
+  <img src="res/android/mpdi.png" width="50" height="50">
+  <h5>christian Lucero Sánchez</h5>
+  </div>
+</div>
+
+
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+		<h1>Estilo-CSS: </h1>
+	</div>
+	<div data-role="content" align="center">
+	 <div data-role="main" class="ui-content">
+  <div data-role="collapsible" data-content-theme="false">
+  <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image66','','imagenes/css1.png',1)"><img src="imagenes/css3.png" width="300" height="250" id="Image66"></a>
+<h2>Selectores:</h2>
+            <h3>Selectores CSS</h3>
+            <p>Definen que elementos HTML serán  afectados por las declaraciones</p>
+            <p>Existen varios tipos de selectores:</p>
+            <div align="center">
+    <ul>
+<li>Elementos</li>
+<li>Clases</li>
+<li>ID’s</li>
+<li>Descendientes</li>
+<li>Adyacentes (hermanos o siblings)</li>
+</ul>
+</div>
+<h3>Selector Universal</h3>
+<p>El selector universal, selecciona todos los  elementos de un documento HTML.</p>
+<div align="center">
+    <ul>
+<li>Se denota por  un “*”</li>
+</ul>
+</div>
+<h3>Selectores tipo Etiqueta</h3>
+            <p>Selectores tipo etiqueta o de elementos,  son los más simples y comunes </p>
+            <h3>Selectores de Clase</h3>
+            <p>Se utiliza para especificar un estilo a un  grupo de elementos con la misma clase.</p>
+<p>Su principal característica, es que se identifica por un punto “.”</p>
+<h3>Selectores de ID</h3>
+<p>Se utiliza para especificar un estilo a un  elemento mediante su id.</p>
+<p>Su principal característica es que se  identifica por un sharp o gato “#”</p>
+<h3>Diferencia entre Clase e ID</h3>
+<p>Clase: se utiliza para un grupo de  elementos, es decir como el apellido de nuestros elementos.</p>
+<p>ID: se utiliza para un único elemento, no se repite ese id, es decir, como un  numero de INE o CURP de nuestro elemento.</p>
+<h3>Selectores Descendientes</h3>
+<p>Afectan a elementos que están contenidos dentro de otro(s) elementos. Lo usamos mediante el uso de un espacio entre cada elemento.</p>
+<h3>Selectores de Hermanos</h3>
+<p>Los selectores de hermanos se emplean para seleccionar elementos adyacentes, es decir  que su elementos padre es el mismo, y ambos  elementos están al mismo nivel.</p>
+<p>Hay dos tipos de selectores hermanos:</p>
+<div align="center">
+    <ul>
+<li>Selector Directo</li>
+<p>Se utiliza cuando el hermano esta  inmediatamente después de él.</p>
+<p>Lo usamos mediante el símbolo “+”</p>
+<li>Selector General</li>
+<p>Se utiliza cuando el hermano esta después  de él. Lo usamos con el símbolo “~”</p>
+</ul>
+</div>
+<h3>Sintaxis de CSS</h3>
+<img src="imagenes/sintaxis.png" width="300" height="250">
+<h3>Uso del Servidor WAMP</h3>
+<p>Una vez instalado el paquete WAMP en nuestro servidor, dispondremos de un servidor Apache funcionando, por lo que podremos acceder mediante un navegador indicando la IP del servidor WAMP. </p>
+<img src="imagenes/servidor.jpg" width="300" height="156"> </div>
+</div>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+        <h4>Tutorial DAW</h4>
+         <img src="res/android/mpdi.png" width="50" height="50">
+          <h5>christian Lucero Sánchez</h5>
+        </div>
+</div>
+
+
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+		<h1>Fuentes</h1>
+	</div>
+	<div data-role="content" align="center">
+		<div>
+        <h2>Propiedad @font-face</h2>
+        <p>Permite introducir fuentes nuevas a las predeterminadas de los navegadores.
+Podemos conseguir fuentes de diferentes  sitios web</p>
+
+ <li class="ui-first-child ui-last-child">
+<a href="https://www.fontsquirrel.com" data-role="button" id="monumenos"</a>
+   <h2>Página:</h2>
+  
+   </li>
+			<h2>Formatos de Fuente soportados:</h2>
+        <img src="imagenes/Fuente.png" width="300" height="238"> 
+        <h2>¿Cómo se usa esta propiedad?</h2>
+        <img src="imagenes/como utilizar la funte.png" width="250" height="250"> 
+        <h2>Más fuentes para nuestras páginas</h2>
+        <p> Otra manera de agregar nuevas fuentes a  nuestros sitios web</p>
+        
+        <li class="ui-first-child ui-last-child">
+<a href="https://www.google.com/fonts" data-role="button" id="monumenos"</a>
+   <h2>Página:</h2>
+  
+   </li>
+        <h2>Google Fonts</h2>
+        <h3>Pasos para agregar una fuente:</h3>
+         <div align="center">
+    <ul>
+<li>Entrar a la dirección(url)</li>
+<li>Ver que fuente es de tu agrado.</li>
+<li>Dar click en “Quick-Use”</li>
+<li>Copiar etiqueta <link> en el HTML</li>
+<li>Copiar font-family en el CSS</li>
+</ul>
+</div>
+<h3>Resultadon de usar funtes:</h3>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image65','','imagenes/sustitucion2.png',1)"><img src="imagenes/sustitucion1.png" width="300" height="200" id="Image65"></a>
+ </div>
+	</div>
+	<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+  <h4>Tutorial DAW</h4>
+  <img src="res/android/mpdi.png" width="50" height="50">
+  <h5>christian Lucero Sánchez</h5>
+  </div>
+</div>
+
+
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+		<h1>Prefijos en CSS de los navegadores</h1>
+	</div>
+	<div data-role="content" align="center">
+     <div data-role="main" class="ui-content">
+  <div data-role="collapsible" data-content-theme="false">
+    <p>Al no haber un estándar por el que se  tengan que regir los navegadores, se deben  usar los llamados “prefijos”.</p>
+    <img src="imagenes/prefijos.jpg" width="300" height="200">
+
+     <div align="center">
+    <ul>
+<li>-webkit</li>
+<h4>Para:</h4>
+<p>Chrome,Safari,Konqueror,etc</p>
+<li>-moz</li>
+<h4>Para:</h4>
+<p>Firefox</p>
+<li>-O</li>
+<h4>Para:</h4>
+<p>Opera</p>
+<li>-ms</li>
+<h4>Para</h4>
+<p>Internet, Explorer</p>
+</ul>
+</div>
+    <h2>Propiedad Gradient</h2>
+    <p>Hay dos tipos principales de Gradientes:</p>
+      <div align="center">
+    <ul>
+    <li>Linear</li>
+    <li>Radial</li>
+    </ul>
+    </div>
+       <h2>Ligas de interés</h2>
+        <li class="ui-first-child ui-last-child">
+<a href="http://www.colorzilla.com/" data-role="button" id="monumenos"
+   <h2>Página: ColorZilla</h2>
+  </a>
+   </li>
+    <li class="ui-first-child ui-last-child">
+<a href="http://css3gen.com/" data-role="button" id="monumenos" 
+   <h2> Página: Easy CSS3 Generator</h2>
+  </a>
+   </li>
+    <li class="ui-first-child ui-last-child">
+<a href="http://www.css3maker.com/" data-role="button" id="monumenos"
+   <h2>Página: css3maker</h2>
+  </a>
+   </li>
+    </div>
+    </div></div>
+	<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+		<div>
+			<img src="imagenes/web.png" width="46" height="46" alt=""/>
+		</div>
+		<h4>Proyecto- Tutorial Daw</h4>
+        <h5>christian Lucero Sánchez</h5>
+	</div>
+</div>
+<div data-role="page" id="Pagina6" data-add-back-btn="true" data-theme="a">
+	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+		<h1>Uso de CSS transforms:</h1>
+	</div>
+	<div data-role="content" align="center">
+    <p>Al modificar las coordenadas del espacio, las transformaciones CSS permiten cambiar la posición del contenido afectado sin interrumpir el flujo normal. Se implementan haciendo uso de un conjunto de propiedades CSS que permiten aplicar transformaciones lineales a elementos HTML. Estas transformaciones incluyen rotar, torcer, escalar y desplazar en plano o en un espacio 3D.</p>
+    <h2>Propiedades de las transformaciones CSS</h2>
+    <h2>Se usan dos propiedades principalmente para definir las transformaciones CSS: </h2>
+    <h3>transform </h3>
+     <p>Especifica la transformación a realizar sobre el elemento. Se define como una lista separada por espacios de transformaciones que se aplican en orden una después de la otra, tal y como es requerido por la operación de composición.</p>
+    <h3> transform-origin</h3>
+    <p>Especifica la posición de origen que se usará para la transformación. Por defecto es el lado superior izquierdo del elemento. Esta posición es usada por varias transformaciones como rotar, escalar o torcer ya que necesitan de este punto especifico como parámetro.</p>
+    <h2>Ejemplos:</h2>
+    <p>Esta es una imagen inalterada del logo de MDN:</p>
+    <h2>Ejemplo: Rotando</h2>
+    <p>Aquí está el logo MDN en un iframe rotado 90 grados desde su esquina inferior izquierda.</p>
+    <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image70','','imagenes/ejemplosTransform.png',1)"><img src="imagenes/ejemplorotado.png" width="300" height="280" id="Image70"></a>
+    
+<div data-role="main" class="ui-content" align="center">
+  <div style="width:90%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+  <li class="ui-first-child ui-last-child">
+  <a href="https://developer.mozilla.org/es/docs/Web/CSS/CSS_Transforms/Using_CSS_transforms" target="_self"  data-role="button">Información de: Uso de CSS transforms </a>
+</li>
+       </ul> 
+       </div>
+ </div>
+       
+    </div>
+	<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+  <h4>Tutorial DAW</h4>
+  <img src="res/android/mpdi.png" width="50" height="50">
+  <h5>christian Lucero Sánchez</h5>
+  </div>
+</div>
+
+<div data-role="page" id="Pagina7" data-add-back-btn="true" data-theme="a">
+	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+		<h1>Propiedad @keyframes</h1>
+	</div>
+	<div data-role="content" align="center">
+        <h2>Propiedad @keyframes y animation</h2>
+        <p>Ambas propiedades trabajan de la mano, es  decir una no puede trabajar si la otra no  existe.</p>
+<p>Es importante saber que estas dos  propiedades requieren del uso de prefijos.</p>
+        <h3>Propiedad @keyframes:</h3>
+        <div align="center">
+        <ul>
+        <li>From</li>
+        <p>Estado inicial de la animación</p>
+        <li>to</li>
+        <p>Estado final de la animaciób</p>
+        <li>0%</li>
+        <p>Estado inicial de la animación</p>
+        <li>100%</li>
+        <p>Estado final de la animación</p>
+        <li>x%</li>
+        <p>Estado de la animación en un porcentaje x de tiempo</p>
+        </ul>
+        </div>
+    </div>
+    <h2>Duplicar resolución</h2>
+    <p>Si existen varios conjuntos de keyframe para un nombre dado, el último encontrado se utiliza. Las reglas de @keyframes no estan en cascada, por lo que nunca las animaciones se conducen en keyframe desde un conjunto de reglas más de uno.</p>
+ 
+<p>Si una animación en tiempo compensado dado se duplica, el último keyframe en la regla de @keyframes para que ese porcentaje se utilice para ese frame. No hay una cascada dentro de una regla de @keyframes si varios kayframes especifican los valores de los mismos porcentajes.</p>
+
+    
+<div data-role="main" class="ui-content" align="center">
+  <div style="width:90%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+  <li class="ui-first-child ui-last-child">
+  <a href="https://developer.mozilla.org/es/docs/Web/CSS/@keyframes" target="_self"  data-role="button"> Más Información: </a>
+</li>
+       </ul> 
+       </div>
+ </div>
+
+	<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+  <h4>Tutorial DAW</h4>
+  <img src="res/android/mpdi.png" width="50" height="50">
+  <h5>christian Lucero Sánchez</h5>
+  </div>
+</div>
+
+<div data-role="page" id="Pagina8" data-add-back-btn="true" data-theme="a">
+	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+		<h1>¿Qué es el diseño responsivo?</h1>
+	</div>
+	<div data-role="content" align="center">
+    <h2>Diseño responsivo:</h2>
+    <p>El diseño web responsive o adaptativo es una técnica de diseño web que busca la correcta visualización de una misma página en distintos dispositivos. Desde ordenadores de escritorio a tablets y móviles.</p>
+
+
+<p>Hoy en día accedemos a sitios web desde todo tipo de dispositivos; ordenador, tablet, smartphone… por lo que, cada vez más, nos surge la necesidad de que nuestra web se adapte a los diferentes tamaños de los mismos.Pero, ¿qué es esto exactamente?</p>
+
+
+<img src="imagenes/DISENO.png" width="46%" height="46%">
+<h4>Fluid Grid – Unidades relativas</h4>
+<h4>Imágenes flexibles – Unidades relativas</h4>
+<h4>Media Queries – Diferentes CSS</h4>
+<h2>Diseño responsivo – Ingredientes</h2>
+<p>En el diseño responsivo haremos mucho uso de medidas de porcentaje o medidas relativas tales como “em” , “%”, etc… 
+Aun así es válido poder trabajar con pixeles.</p>
+
+<h2>¿En qué consiste el diseño responsive?</h2>
+<p>Se trata de redimensionar y colocar los elementos de la web de forma que se adapten al ancho de cada dispositivo permitiendo una correcta visualización y una mejor experiencia de usuario. Se caracteriza porque los layouts (contenidos) e imágenes son fluidos y se usa código media-queries de CSS3.
+
+El diseño responsive permite reducir el tiempo de desarrollo, evita los contenidos duplicados, y aumenta la viralidad de los contenidos ya que permite compartirlos de una forma mucho más rápida y natural.</p>
+<div data-role="main" class="ui-content" align="center">
+  <div style="width:90%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+  <li class="ui-first-child ui-last-child">
+  <a href="https://www.40defiebre.com/que-es/diseno-responsive/" target="_self"  data-role="button">Leer más: </a>
+</li>
+       </ul> 
+       </div>
+ </div>
+<p>Consta de una serie de reglas de diseño web que permiten al contenido de un sitio web adaptarse a diferentes resoluciones en diferentes dispositivos</p>
+        <h2>Ventajas:</h2>
+        <div align="center">
+        <ul>
+        <li>Reducción de costos de producción</li>
+        <li>Eficiencia en el mantenimiento</li>
+        <li>Mejor usabilidad</li>
+        <li>Impacto en el Visitante</li>
+        <h2>Diseño responsivo – Ingredientes</h2>
+        <p>En el diseño responsivo haremos mucho uso de medidas de porcentaje o medidas relativas tales como “em” , “%”, etc… </p>
+<p>Aun así es válido poder trabajar con pixeles.</p>
+<img src="imagenes/responsivo.png" width="250" height="250">
+<h1>Media Queries</h1>
+<p>Permite la representación del contenido para adaptarse a la resolución de la pantalla. 
+Añadido en CSS3 permiten que el contenido se adapte a un rango específico sin tener que cambiar el contenido.</p>
+
+<p>Se puede agregar al css de dos formas:</p>
+
+ <h4>En la etiqueta <link></h4>
+<h4> Dentro de las Hojas de Estilo</h4>
+<h3>Media Queries - Condiciones</h3>
+<p>¿Qué puede ser una condición? 
+Usamos el diseño responsivo porque el ancho de los dispositivos varían, debemos de considerar que “la condición debe de ir de acuerdo al ancho de pantalla” </p>
+<h4>PC</h4>
+<h4>Tablet</h4>
+<h4>Móvil</h4>
+
+ <img src="imagenes/condiciones.png" width="36%" height="46%">
+        </ul>
+        </div>
+    </div>
+	<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+  <h4>Tutorial DAW</h4>
+  <img src="res/android/mpdi.png" width="50" height="50">
+  <h5>christian Lucero Sánchez</h5>
+  </div>
+</div>
+<div data-role="page" id="Pagina9" data-add-back-btn="true" data-theme="a">
+	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+		<h1>Media Queries</h1>
+	</div>
+	<div data-role="content" align="center">
+	    <p>Permite la representación del contenido para adaptarse a la resolución de la pantalla. </p>
+<p>Añadido en CSS3 permiten que el contenido se adapte a un rango específico sin tener que cambiar el contenido.</p>
+<h2>Se puede agregar al css de dos formas:</h2>
+<div align="center">
+<ul>
+<li> En la etiqueta <link></li>
+<li> Dentro de las Hojas de Estilo</li>
+<h2>Media Queries - Condiciones</h2>
+<h4>¿Qué puede ser una condición? </h4>
+<p>Usamos el diseño responsivo porque el ancho de los dispositivos varían, debemos de considerar que “la condición debe de ir de acuerdo al ancho de pantalla” </p>
+<li>PC</li>
+<li>Tablet</li>
+<li>Móvil</li>
+<img src="imagenes/condicionales ejmplo.png" width="300" height="250">
+</ul>
+</div>
+<h2>Atributos Media</h2>
+<p>La siguiente tabla contiene los atributos media recogidos de la última recomendación de la W3C para media queries, el 6 de junio de 2007.10​</p>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image53','','imagenes/mediaquery1.png',1)"><img src="imagenes/mediaquery.png" width="300" height="200" id="Image53"></a>
+<div data-role="main" class="ui-content" align="center">
+  <div style="width:90%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+  <li class="ui-first-child ui-last-child">
+  <a href="https://es.wikipedia.org/wiki/Media_query" target="_self"  data-role="button">Leer más: </a>
+</li>
+       </ul> 
+       </div>
+ </div>
+
+    </div>
+	<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+  <h4>Tutorial DAW</h4>
+  <img src="res/android/mpdi.png" width="50" height="50">
+  <h5>christian Lucero Sánchez</h5>
+  </div>
+</div>
+<div data-role="page" id="Pagina10" data-add-back-btn="true" data-theme="a">
+	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+		<h1>DATOS DEL DESARROLLADOR:</h1>
+	</div>
+  <div align="center">
+    <div data-role="main" class="iu-content">
+   <div data-role="collapsible" data-comtent-theme="false">
+    <h1>Foto del desarrollador:</h1>
+    <div>
+     <img src="imagenes/foto.png" width="50%" height="50%"> 
+    </div>
+   </div>
+ 
+<h2>Alumno:</h2>
+	<p>Christian Alexis Lucero Sánchez.</p>
+  <h2>Grado y Grupo:</h2>
+    <p>4to semestre  "F".</p>
+    <h2>Materia:</h2>
+    <p>Desarrolla Aplicaciones Móviles.</p>
+    <h2>Maestro:</h2>
+    <p>José Antonio Gómez Hérnandez.</p>
+    <h2>Especialidad:</h2>
+    <p>PROGRAMACIÓN.</p>
+      </div>
+       </div>
+      <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+  <h4>Tutorial DAW</h4>
+  <img src="res/android/mpdi.png" width="50" height="50">
+  <h5>christian Lucero Sánchez</h5>
+  </div>
+       
+    </div>
+</body>
+</html>
